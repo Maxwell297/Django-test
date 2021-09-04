@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends 'blogbase.html' %}
+
+{% block content %}
+<div class="post-meta">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.body }}</p>
+</div>
+
+{% endblock content %}
+</body>
+</html>
